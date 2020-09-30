@@ -2,10 +2,20 @@
     height: 600px;
 }
 
+/* COLORS */
 .red{
     background-color: red;
 }
 
 .blue{
     background-color: blue;
+    color: white;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.black{
+    background-color: black;
 }
