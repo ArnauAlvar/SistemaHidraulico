@@ -2,6 +2,10 @@
     height: 60px;
 } */
 
+.vertical{
+    height: 120px;
+}
+
 .celda{
     height: 60px;
 }
@@ -24,6 +28,11 @@
     background-color: black;
 }
 
+.green{
+    background-color: green;
+}
+
 .border{
     border: 2px solid black;
 }
+

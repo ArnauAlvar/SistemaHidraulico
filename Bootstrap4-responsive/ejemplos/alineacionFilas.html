@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <!-- align-items-center alinea verticalmente al centro
+        lo mismo con align-items-start y align-items-end -->
+        <div class="row green vertical align-items-center">
+            
+            <!-- Estos divs tendran un padding de 15px por defecto -->
+            <div class="col celda red"></div>
+            <div class="col celda yellow"></div>
+            <div class="col celda black"></div>
+        </div>
+
+
+        <!-- Para alinear horizontalmente utilizamos justify-content-center/start/enter
+        dependiendo donde queremos justificar el contenido -->
+
+        <!-- Para distribuir de forma equitativa las columnas se puede utilizar
+        justify-content-around -->
+
+        <!-- Para distribuir de forma equitativa las columnas pero que a la vez la primera y 
+            la ultima toquen los extremos se puede utilizar
+        justify-content-between -->
+        <div class="row green vertical justify-content-start">
+            
+            <!-- Estos divs tendran un padding de 15px por defecto -->
+            <div class="col celda red"></div>
+            <div class="col celda yellow"></div>
+            <div class="col celda black"></div>
+        </div>
+
+    </div>
+
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
