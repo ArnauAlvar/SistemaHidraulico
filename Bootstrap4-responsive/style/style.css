@@ -1,5 +1,9 @@
-.container div div{
-    height: 600px;
+/* .container div div{
+    height: 60px;
+} */
+
+.celda{
+    height: 60px;
 }
 
 /* COLORS */
@@ -18,4 +22,8 @@
 
 .black{
     background-color: black;
+}
+
+.border{
+    border: 2px solid black;
 }
