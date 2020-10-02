@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    
+    <div class="container-fluid">
+
+        <!-- Para determinar el margen hay que añadir la clase
+        "m" seguida por el lado del margen: "ml" sería margen a la izquierda
+        y asi con l, r, t, b dependiendo de donde lo queramos -->
+        
+        <!-- tambien tenemos los lados mx (superior e inferior) y my (izquierda y derecha) 
+        Si ponemos solo 'm' aplica el margen en todos los lados-->
+
+        <!-- El valor del margen se asigna con un guión:
+        ml-4/ml-md-4 -->
+        
+        <div class="row">
+            <div class="col-md-4 celda border"></div>
+            <div class="col-md-4 ml-md-5 celda border"></div>
+        </div>
+         
+        <!-- Tambien podemos utilizar el parametro -auto -->
+        <div class="row">
+            <div class="col-md-3 mt-md-5 ml-md-auto celda border"></div>
+            <div class="col-md-3 mt-md-5 ml-md-5 ml-md-auto celda border"></div>
+        </div>
+
+        <!-- Padding -->
+        <div class="row">
+            <div class="col-md-2 p-4 celda border">Auto</div>
+            <div class="col-md-2 celda border">Auto</div>
+        </div>
+
+    </div>
+
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
