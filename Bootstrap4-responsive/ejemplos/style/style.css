@@ -10,7 +10,6 @@
     height: 60px;
 }
 
-/* COLORS */
 .red{
     background-color: red;
 }
@@ -35,3 +34,26 @@
 .border{
     border: 2px solid black;
 }
+
+.row:first-child {
+    border-bottom: 3px solid #FF3986;
+}
+  
+  
+h1 {
+    color: #FF3986;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.row:first-child .col {
+  background-color: #DDDDDD;
+  border-radius: 10px;
+}
+  
+.icon {
+  height: 64px;
+  margin: 15px;
+  width: 64px;
+}
+  
